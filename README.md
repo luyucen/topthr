@@ -5,7 +5,7 @@ This folder contains tests on three examples with different boundary conditions 
 Example 1. Traction force applies on the right bottom corner of a cantilever beam with its left boundary fixed;\
 Example 2. Point force applies on the middle of the right boundary of a cantilever beam with its left boundary fixed;\
 Example 3. Half of an MBB beam.\
-Two continuation schemes have been used
+Two continuation schemes have been used:
 1. Continuation based on decreasing Emin. For example, run `demo_example1_200X100` in MATLAB, to apply this continuation method on Example 1 with mesh resolution 200X100;
 2. Continuation based on decreasing sensitivity filter. For example, run `demo_sensitivity_continuation_example1` to apply this continuation method on Example 1 with mesh resolution 100X50, 200X100, 300X150 and 400X200.
 
